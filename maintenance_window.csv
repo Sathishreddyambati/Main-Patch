@@ -1,0 +1,3 @@
+Hostname,Username,Password,Owner,Maintenance Window
+192.168.0.61,ansible,Netapp1!,root,Every 2nd Tuesday 6 to 20 hours
+192.168.0.241,ansible,Netapp1!,root,Every 2nd Tuesday 6 to 20 hours
