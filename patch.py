@@ -22,7 +22,7 @@ def get_change_request():
         "Content-Type": "application/json",
         "Accept": "application/json"
             }
-    QUERY = "?sysparm_query=requested_by.name=Harini R K"
+    QUERY = "?sysparm_query=requested_by.name=Harini R K^state=-5"
 
     try:
         response = requests.get(URL + QUERY, auth=(SNOW_USERNAME, SNOW_PASSWORD), headers=HEADERS)
