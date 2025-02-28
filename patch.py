@@ -103,11 +103,11 @@ def resolve_ticket(ticket_sys_id):
 def check_maintenance_window():
     """Check if the current time is within the maintenance window."""
     current_time = datetime.now()
-    if current_time.weekday() == 1 and 6 <= current_time.hour < 20:
+    if current_time.weekday() == 4 and 2 <= current_time.hour < 12:
         print("Within maintenance window")
         return True
     print("Outside maintenance window")
-    return True
+    return False
 
 def patch_server(hostname, username, password):
     """Perform patching on the server."""
